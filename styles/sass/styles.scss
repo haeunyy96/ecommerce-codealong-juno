@@ -3,5 +3,6 @@
 @import "./partials/_mixins";
 @import "./partials/typography";
 @import "./partials/baseStyles";
+@import "./partials/nav";
 
 // ordered variables > then > typography, to allow typography to access all of variables
