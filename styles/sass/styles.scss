@@ -10,4 +10,6 @@
 @import "./partials/play";
 @import "./partials/footer";
 
+@import "./partials/mediaQuery"
+
 // ordered variables > then > typography, to allow typography to access all of variables
