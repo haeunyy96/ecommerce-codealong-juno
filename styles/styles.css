@@ -496,6 +496,8 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -507,6 +509,47 @@ header .headerImgContainer {
 header .headerContentContainer {
   width: 55%;
   padding: 0 90px;
+}
+
+.categories {
+  padding: 90px 0;
+}
+.categories .categoryGallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-align: center;
+}
+.categories .categoryGallery .item {
+  width: 40%;
+  padding: 40px;
+  border-radius: 10%;
+  margin: 25px 0;
+}
+.categories .categoryGallery .item:hover, .categories .categoryGallery .item:focus {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+.categories .categoryGallery .item img {
+  border-radius: 10%;
+  margin-bottom: 20px;
+}
+.categories .categoryGallery .item1 {
+  background-color: #ffd698;
+}
+.categories .categoryGallery .item2 {
+  background-color: #f4fcff;
+}
+.categories .categoryGallery .item3 {
+  background-color: #f8fbf3;
+}
+.categories .categoryGallery .item4 {
+  background-color: #fff5f5;
 }
 
 footer {
