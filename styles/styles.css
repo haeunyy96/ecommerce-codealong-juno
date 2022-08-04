@@ -641,6 +641,13 @@ footer a:hover, footer a:focus {
     width: 80%;
   }
 }
+@media (max-width: 760px) {
+  .categories .categoryGallery .item {
+    width: 90%;
+    margin: 10px 0;
+    padding: 20px;
+  }
+}
 @media (max-width: 500px) {
   .navBar .wrapper {
     -webkit-box-orient: vertical;
@@ -650,11 +657,6 @@ footer a:hover, footer a:focus {
   }
   .navBar .logo {
     margin: 7px 0 12px;
-  }
-  .categories .categoryGallery .item {
-    width: 90%;
-    margin: 10px 0;
-    padding: 20px;
   }
   .play {
     padding: 0;
