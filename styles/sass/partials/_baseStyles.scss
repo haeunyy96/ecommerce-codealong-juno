@@ -40,6 +40,8 @@ a {
     &.secondaryButton {
         background-color: $primary;
         color: $solidWhite;
+        font-weight: bold;
+        padding: 15px 32px;
     
         &:hover,
         &:focus {
