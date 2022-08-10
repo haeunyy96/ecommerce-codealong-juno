@@ -17,16 +17,16 @@ header {
     background-color: $quaternary;
     text-align: center;
     padding-top: 100px;
-    
-    .contactContent {
-        padding-bottom: 50px;
-    }
 
     &::after {
-        content: "";
-        background-image: url(../assets/wave.svg);
-        background-size: 100% 150px;
-        width: 100%;
-        height: 150px;
+            content: "";
+            background-image: url(../assets/wave.svg);
+            background-size: 100% 150px;
+            width: 100%;
+            height: 150px;
+        }
+
+    .contactContent {
+        padding-bottom: 50px;
     }
 }
